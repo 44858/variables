@@ -6,7 +6,9 @@ first_integer = int(input("Please enter an integer: "))
 second_integer = int(input("Please enter an integer that you would like the first to be divided by: "))
 
 total = first_integer // second_integer
+
+remainder = first_integer % second_integer
                      
-print("The answer is {0} ".format(total))
+print("The answer is {0} and the remainder is {1} ".format(total,remainder))
                      
                      
